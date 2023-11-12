@@ -1,11 +1,11 @@
 package org.example;
 
-public class Meduction {
+public class Medication {
     private String name;
     private double price;
     private boolean availability;
 
-    public Meduction(String name, double price, boolean availability) {
+    public Medication(String name, double price, boolean availability) {
         this.name = name;
         this.price = price;
         this.availability = availability;
@@ -25,7 +25,7 @@ public class Meduction {
 
     @Override
     public String toString() {
-        return "Meduction{" +
+        return "Medication{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", availability=" + availability +
